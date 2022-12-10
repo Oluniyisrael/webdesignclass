@@ -35,4 +35,5 @@ html,body{
 }
 #width{
     width: 100px;
+    position: relative;
 }
