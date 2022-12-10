@@ -1,0 +1,38 @@
+html,body{
+    margin: 0;
+}
+.formContainer{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(to bottom, blue, rgb(35, 30, 100), rgb(58, 51, 150)) ;
+}
+.formCont{
+    /* width: 40%; */
+    padding: 2em;
+    border-radius: 20px;
+    background-color: brown;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.input{
+    background-color: rgb(125, 93, 180);
+    padding: 10px;
+    border-radius: 20px;
+    border-style: none;
+}
+.button{
+    width: 60%;
+    align-self: center;
+    background-color: bisque;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#width{
+    width: 100px;
+}
